@@ -1,7 +1,6 @@
 import MainLayout from './pages/MainLayout'
 import HomePage from './pages/HomePage'
 import ProductPage from './pages/ProductPage'
-import Furniture from './components/Furniture'
 import './App.css'
 
 import {

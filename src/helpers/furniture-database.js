@@ -1,4 +1,4 @@
-const furniture = [
+const furnitureArray = [
     {
         "id": "2c6VoCaD",
         "name": "Designové křeslo",
@@ -51,4 +51,4 @@ const furniture = [
     }
 ]
 
-export default furniture
+export default furnitureArray

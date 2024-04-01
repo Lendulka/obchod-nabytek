@@ -3,21 +3,19 @@ import './style.css'
 
 function MainLayout() {
     return (
-
         <div className="container">
-            <header>
-                <div className="logo">Logo</div>
+            <header className="header">
+                <div className="logo">XXXMuck</div>
             </header>
 
-            <main>
+            <main className="main">
                 <Outlet />
             </main>
 
-            <footer>
+            <footer className="footer">
                 <p>Czechitas, Digitální akademie: Web</p>
             </footer>
         </div>
-
     )
 }
 

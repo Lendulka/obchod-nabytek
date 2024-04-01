@@ -1,0 +1,15 @@
+.container-furniture {
+    display: flex;
+    flex-direction: column;
+}
+
+.img {
+    display: flex;
+}
+
+.reference {
+    font-size: 1.3rem;
+    text-decoration-line: none;
+    color: black;
+    text-align: center;
+}
