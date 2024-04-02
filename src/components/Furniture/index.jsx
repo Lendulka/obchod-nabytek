@@ -8,7 +8,7 @@ function Furniture({ name, image, id }) {
 
             <div className="container-furniture">
 
-                <img className="img" src={image} alt={name} />
+                <img className="img" src={image} alt={name} width={405} height={452} />
 
                 <div className="product-name">{name}</div>
 

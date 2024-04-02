@@ -1,11 +1,13 @@
-import { Outlet } from 'react-router-dom'
+import { Link, Outlet } from 'react-router-dom'
 import './style.css'
 
 function MainLayout() {
     return (
         <div className="container">
             <header className="header">
-                <div className="logo">XXXMuck</div>
+                <Link to="/">
+                    <div className="logo">XXXMuck</div>
+                </Link>
             </header>
 
             <main className="main">

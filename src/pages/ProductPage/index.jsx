@@ -17,11 +17,12 @@ function ProductPage() {
     return (
         <div className="container-furniture--selected">
 
-            <img src={productSelect.image} alt={productSelect.name} />
+            <img src={productSelect.image} alt={productSelect.name} width={405} height={452} />
 
-            <div>{productSelect.name}</div>
-
-            <button>Objednat</button>
+            <div className="container-product">
+                <div className="product__name">{productSelect.name}</div>
+                <button className="product__button">Objednat</button>
+            </div>
 
         </div>
     )

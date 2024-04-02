@@ -1,0 +1,33 @@
+.container-furniture--selected {
+    display: flex;
+    margin-top: 2.5rem;
+    gap: 1rem;
+}
+
+.container-product {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.product__name {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.product__button {
+    width: 9rem;
+    height: 3rem;
+    font-size: 1.4rem;
+    background-color: #a225d8;
+    border: 1px solid #a225d8;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.product__button:hover,
+.product__button:focus {
+    background-color: #4B0082;
+    border: 1px solid #4B0082;
+}
