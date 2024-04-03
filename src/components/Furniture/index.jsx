@@ -3,19 +3,12 @@ import './style.css'
 
 function Furniture({ name, image, id }) {
     return (
-
-        <NavLink className="reference" to={"product/" + id}>
-
-            <div className="container-furniture">
-
-                <img className="img" src={image} alt={name} width={405} height={452} />
-
-                <div className="product-name">{name}</div>
-
-            </div>
-
-        </NavLink>
-
+        <div className="furniture">
+            <NavLink className="furniture__reference" to={"product/" + id}>
+                <img src={image} alt={name} width={405} height={452} />
+                <div className="furniture__name">{name}</div>
+            </NavLink>
+        </div>
     )
 }
 

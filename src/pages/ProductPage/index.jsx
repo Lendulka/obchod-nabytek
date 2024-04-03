@@ -15,11 +15,11 @@ function ProductPage() {
     console.log(productSelect)
 
     return (
-        <div className="container-furniture--selected">
+        <div className="product--selected">
 
             <img src={productSelect.image} alt={productSelect.name} width={405} height={452} />
 
-            <div className="container-product">
+            <div className="product__details">
                 <div className="product__name">{productSelect.name}</div>
                 <button className="product__button">Objednat</button>
             </div>
