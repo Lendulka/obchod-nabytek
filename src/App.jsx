@@ -27,11 +27,10 @@ const router = createBrowserRouter([
       },
     ]
   },
-  {
-    base: "/czechitas-react2-projekt-nabytek"
-  }
-]
-)
+], {
+  basename: '/obchod-nabytek'
+})
+
 
 function App() {
   return (
