@@ -26,8 +26,12 @@ const router = createBrowserRouter([
         element: <ProductPage />,
       },
     ]
+  },
+  {
+    base: "/czechitas-react2-projekt-nabytek"
   }
-])
+]
+)
 
 function App() {
   return (
