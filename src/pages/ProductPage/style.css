@@ -6,6 +6,12 @@
     gap: 1rem;
 }
 
+.product--selected img {
+    width: 300px;
+    height: auto;
+
+}
+
 .product__details {
     display: flex;
     flex-direction: column;
