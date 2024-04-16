@@ -11,27 +11,18 @@
 }
 
 .furniture img {
-    /*display: flex;*/
-
     max-width: 100%;
     width: 300px;
     height: auto;
     min-height: 100%;
 }
 
-.furniture__reference {
-    font-size: 1.3rem;
-    text-decoration-line: none;
-    color: black;
-    /*display: flex;
-    justify-content: center;*/
-}
-
 .furniture__name {
     font-size: 1.1rem;
+    text-decoration-line: none;
+    color: black;
     margin-top: 0.5rem;
 }
-
 
 @media screen and (min-width: 1000px) {
     .furniture {
@@ -42,16 +33,11 @@
         filter: drop-shadow(0 0 0.5rem rgb(150, 147, 147));
     }
 
-
     .furniture img {
         transition: all 1s ease;
-
     }
 
     .furniture:hover img {
         transform: scale(1.3);
-
-
     }
-
 }

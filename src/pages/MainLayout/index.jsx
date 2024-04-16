@@ -1,5 +1,4 @@
 import { Link, Outlet } from 'react-router-dom'
-import React from 'react'
 import './style.css'
 
 function MainLayout() {
@@ -12,8 +11,6 @@ function MainLayout() {
                 </Link>
             </header>
 
-
-
             <main className="main">
                 <Outlet />
             </main>
@@ -21,6 +18,7 @@ function MainLayout() {
             <footer className="footer">
                 <p>Czechitas, Digitální akademie: Web</p>
             </footer>
+
         </div>
     )
 }

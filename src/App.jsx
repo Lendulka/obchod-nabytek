@@ -31,7 +31,6 @@ const router = createBrowserRouter([
   basename: '/obchod-nabytek'
 })
 
-
 function App() {
   return (
     <RouterProvider router={router} />

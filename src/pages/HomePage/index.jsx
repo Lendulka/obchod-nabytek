@@ -1,8 +1,12 @@
 import furnitureArray from '../../helpers/furniture-database'
 import Furniture from '../../components/Furniture'
+import { useState } from 'react'
 import './style.css'
 
 function HomePage() {
+
+    const [furniture, _] = useState(furnitureArray)
+
     return (
         <>
             <div className="homepage__title">
@@ -13,7 +17,14 @@ function HomePage() {
             </div>
 
             <div className="homepage__list">
-                {furnitureArray.map(oneFurniture => <Furniture key={oneFurniture.id} name={oneFurniture.name} image={oneFurniture.image} id={oneFurniture.id} />)}
+                {furniture.map(oneFurniture =>
+                    <Furniture
+                        key={oneFurniture.id}
+                        name={oneFurniture.name}
+                        image={oneFurniture.image}
+                        id={oneFurniture.id}
+                    />
+                )}
             </div>
         </>
     )
